@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "into-the-wild/index.html",
-    "href": "into-the-wild/index.html",
-    "title": "Into the Wild",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
     "text": "Online photo gallery (WIP)\n\n\n\njavascript\n\nhtml\n\ncss\n\nlaravel\n\n\n\nPersonal photo website built from scratch using Laravel and Svelte.\n\n\n\n\n\n\n\n\n\npakret\n\n\n\nr\n\npackage\n\n\n\nLibrary to reference and cite R and R packages on the fly in R Markdown and Quarto.\n\n\n\n\n\n\n\n\n\nplume\n\n\n\nr\n\npackage\n\n\n\nR package that provides tools for handling and generating author-related information for scientific writing in R Markdown and Quarto.\n\n\n\n\n\n\n\n\n\nAI booking service\n\n\n\nschool project\n\npython\n\n\n\nAI-powered email booking service that schedules or cancels sports sessions using the Google Gmail and Calendar APIs.\n\n\n\n\n\n\n\n\n\nBig data project\n\n\n\nschool project\n\nspark\n\njava\n\ndocker\n\n\n\nSpark/Java application that evaluates performance gains from scaling computation across additional cores or servers.\n\n\n\n\n\n\n\n\n\nDrone detection\n\n\n\nschool project\n\npython\n\ndeep learning\n\n\n\nProject to fine-tune a YOLO model for detecting flying objects (drones, helicopters, planes) and birds in images.\n\n\n\n\n\n\n\n\n\nMedical chatbot\n\n\n\nschool project\n\npython\n\nrag\n\n\n\nRAG-based medical application that makes diagnoses based on user inputs.\n\n\n\n\n\n\n\n\n\nSpecies scraper\n\n\n\npython\n\n\n\nScraper to extract species and their elevation ranges in PDF and text files.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "into-the-wild/index.html",
+    "href": "into-the-wild/index.html",
+    "title": "Into the Wild",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "publications/index.html",
