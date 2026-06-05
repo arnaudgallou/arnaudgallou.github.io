@@ -1,0 +1,36 @@
+- title: Online photo gallery (WIP)
+  description: "Personal photo website built from scratch using Laravel and Svelte."
+  categories: [javascript, html, css, laravel]
+
+- title: pakret
+  description: "Library to reference and cite R and R packages on the fly in R Markdown and Quarto."
+  path: https://arnaudgallou.github.io/pakret/index.html
+  categories: [r, package]
+
+- title: plume
+  description: "R package that provides tools for handling and generating author-related information for scientific writing in R Markdown and Quarto."
+  path: https://arnaudgallou.github.io/plume/index.html
+  categories: [r, package]
+
+- title: AI booking service
+  description: "AI-powered email booking service that schedules or cancels sports sessions using the Google Gmail and Calendar APIs."
+  path: https://github.com/arnaudgallou/rag-booking
+  categories: [school project, python]
+
+- title: Big data project
+  description: "Spark/Java application that evaluates performance gains from scaling computation across additional cores or servers."
+  categories: [school project, spark, java, docker]
+
+- title: Drone detection
+  description: "Project to fine-tune a YOLO model for detecting flying objects (drones, helicopters, planes) and birds in images."
+  categories: [school project, python, deep learning]
+
+- title: Medical chatbot
+  description: "RAG-based medical application that makes diagnoses based on user inputs."
+  path: https://github.com/arnaudgallou/n7-rag
+  categories: [school project, python, rag]
+
+- title: Species scraper
+  description: "Scraper to extract species and their elevation ranges in PDF and text files."
+  path: https://github.com/arnaudgallou/rsparser
+  categories: [python]

@@ -1,0 +1,45 @@
+.pub {
+  text-align: justify;
+}
+
+.pub-item {
+  margin-bottom: 36px;
+}
+
+.pub-item h3, .pub-item p {
+  margin-bottom: .5em;
+}
+
+.pub-item h3 {
+  padding-bottom: 0;
+}
+
+.pub-meta, .pub-authors {
+  font-size: .9em;
+}
+
+.pub-meta {
+  margin-bottom: 15px;
+}
+
+.pub-meta span:not(:last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 1em;
+  background: #999;
+  margin: 0 9px;
+  vertical-align: middle;
+}
+
+.pub-links .pub-link {
+  font-size: .8em;
+  padding: .3em .9em;
+  text-decoration: none;
+  border: solid 1px;
+  color: #626d78
+}
+
+.pub-links .pub-link:not(:last-child) {
+  margin-right: 3px;
+}

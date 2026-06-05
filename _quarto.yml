@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Arnaud Gallou"
+  navbar:
+    left:
+      - href: projects/index.qmd
+        text: Projects
+      - href: publications/index.qmd
+        text: Publications
+      - href: into-the-wild/index.qmd
+        text: Into the Wild
+    tools:
+      - icon: github
+        href: https://github.com/arnaudgallou
+      - icon: linkedin
+        href: https://www.linkedin.com/in/arnaud-gallou-67427b159/
+
+format:
+  html:
+    date-format: YYYY
+    grid:
+      body-width: 1200px
+    theme:
+      - cosmo
+      - brand
+    include-after-body:
+      - text: >
+          <script data-goatcounter="https://gh-pages.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+    css: styles.css

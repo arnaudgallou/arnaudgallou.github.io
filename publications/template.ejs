@@ -1,0 +1,18 @@
+```{=html}
+<div class="pub">
+  <% for (const item of items) { %>
+  <div class="pub-item">
+    <h4><%= item.title %></h4>
+    <p class="pub-authors"><%= item.authors %></p>
+    <div class="pub-meta">
+      <span class="pub-meta-journal"><%= item.journal %></span>
+      <span class="pub-meta-date"><%= item.date %></span>
+    </div>
+    <div class="pub-links">
+      <a href=<%- item.doi %> class="pub-link link-btn" target="_blank" rel="noopener">DOI</a>
+      <a href=<%- item.pdf %> class="pub-link link-btn" target="_blank" rel="noopener">PDF</a>
+    </div>
+  </div>
+  <% } %>
+</div>
+```

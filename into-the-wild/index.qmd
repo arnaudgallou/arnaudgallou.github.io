@@ -1,0 +1,8 @@
+---
+title: Into the Wild
+description: "Small collection of images taken with my phone showing one of the things I love the most: being out in nature."
+listing:
+  contents: "images/*"
+  template: template.ejs
+css: styles.css
+---

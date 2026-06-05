@@ -1,0 +1,9 @@
+---
+title: Publications
+grid:
+  body-width: 960px
+listing:
+  contents: publications.yml
+  template: template.ejs
+css: styles.css
+---

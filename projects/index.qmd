@@ -1,0 +1,8 @@
+---
+title: Projects
+description: "Relevant coding projects from the last couple of years."
+listing:
+  type: grid
+  contents: projects.yml
+  page-size: 9
+---
