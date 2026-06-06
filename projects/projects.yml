@@ -4,17 +4,19 @@
 
 - title: pakret
   description: "Library to reference and cite R and R packages on the fly in R Markdown and Quarto."
-  path: https://arnaudgallou.github.io/pakret/index.html
+  site: https://arnaudgallou.github.io/pakret/index.html
+  github: https://github.com/arnaudgallou/pakret
   categories: [r, package]
 
 - title: plume
   description: "R package that provides tools for handling and generating author-related information for scientific writing in R Markdown and Quarto."
-  path: https://arnaudgallou.github.io/plume/index.html
+  site: https://arnaudgallou.github.io/plume/index.html
+  github: https://github.com/arnaudgallou/plume
   categories: [r, package]
 
 - title: AI booking service
   description: "AI-powered email booking service that schedules or cancels sports sessions using the Google Gmail and Calendar APIs."
-  path: https://github.com/arnaudgallou/rag-booking
+  github: https://github.com/arnaudgallou/rag-booking
   categories: [school project, python]
 
 - title: Big data project
@@ -27,10 +29,10 @@
 
 - title: Medical chatbot
   description: "RAG-based medical application that makes diagnoses based on user inputs."
-  path: https://github.com/arnaudgallou/n7-rag
+  github: https://github.com/arnaudgallou/n7-rag
   categories: [school project, python, rag]
 
 - title: Species scraper
   description: "Scraper to extract species and their elevation ranges in PDF and text files."
-  path: https://github.com/arnaudgallou/rsparser
+  github: https://github.com/arnaudgallou/rsparser
   categories: [python]
