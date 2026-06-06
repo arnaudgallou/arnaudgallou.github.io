@@ -2,11 +2,14 @@
   justify-content: space-between;
 }
 
-.card-footer-extra a {
-  text-decoration: none;
-  color: #626d78;
+.card-title {
+  margin-bottom: 12px !important;
 }
 
-.card-footer-extra a:not(:last-child) {
+.card-links a:not(:last-child) {
   margin-right: 6px;
+}
+
+.card-links a:hover {
+  color: #2a2a2a;
 }
