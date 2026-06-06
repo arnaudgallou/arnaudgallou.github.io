@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-categories','listing-site','listing-github',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-description","listing-categories","listing-site","listing-github"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -134,6 +134,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -210,178 +211,271 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="amF2YXNjcmlwdCUyQ2h0bWwlMkNjc3MlMkNsYXJhdmVs">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Online photo gallery (WIP)
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('amF2YXNjcmlwdA=='); return false;">javascript</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aHRtbA=='); return false;">html</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y3Nz'); return false;">css</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bGFyYXZlbA=='); return false;">laravel</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Personal photo website built from scratch using Laravel and Svelte.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ciUyQ3BhY2thZ2U=">
-<a href="https://arnaudgallou.github.io/pakret/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-pakret
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cg=='); return false;">r</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFja2FnZQ=='); return false;">package</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Library to reference and cite R and R packages on the fly in R Markdown and Quarto.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="ciUyQ3BhY2thZ2U=">
-<a href="https://arnaudgallou.github.io/plume/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-plume
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cg=='); return false;">r</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFja2FnZQ=='); return false;">package</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>R package that provides tools for handling and generating author-related information for scientific writing in R Markdown and Quarto.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="c2Nob29sJTIwcHJvamVjdCUyQ3B5dGhvbg==">
-<a href="https://github.com/arnaudgallou/rag-booking" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-AI booking service
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2Nob29sJTIwcHJvamVjdA=='); return false;">school project</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>AI-powered email booking service that schedules or cancels sports sessions using the Google Gmail and Calendar APIs.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="c2Nob29sJTIwcHJvamVjdCUyQ3NwYXJrJTJDamF2YSUyQ2RvY2tlcg==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Big data project
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2Nob29sJTIwcHJvamVjdA=='); return false;">school project</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c3Bhcms='); return false;">spark</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('amF2YQ=='); return false;">java</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZG9ja2Vy'); return false;">docker</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Spark/Java application that evaluates performance gains from scaling computation across additional cores or servers.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="c2Nob29sJTIwcHJvamVjdCUyQ3B5dGhvbiUyQ2RlZXAlMjBsZWFybmluZw==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Drone detection
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2Nob29sJTIwcHJvamVjdA=='); return false;">school project</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5n'); return false;">deep learning</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Project to fine-tune a YOLO model for detecting flying objects (drones, helicopters, planes) and birds in images.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="c2Nob29sJTIwcHJvamVjdCUyQ3B5dGhvbiUyQ3JhZw==">
-<a href="https://github.com/arnaudgallou/n7-rag" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Medical chatbot
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2Nob29sJTIwcHJvamVjdA=='); return false;">school project</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmFn'); return false;">rag</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>RAG-based medical application that makes diagnoses based on user inputs.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="cHl0aG9u">
-<a href="https://github.com/arnaudgallou/rsparser" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Species scraper
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Scraper to extract species and their elevation ranges in PDF and text files.</p>
-</div>
-</div>
-</div></a>
-</div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">Online photo gallery (WIP)</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">javascript</span>
+              
+                <span class="listing-category">html</span>
+              
+                <span class="listing-category">css</span>
+              
+                <span class="listing-category">laravel</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>Personal photo website built from scratch using Laravel and Svelte.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+          
+            
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">pakret</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">r</span>
+              
+                <span class="listing-category">package</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>Library to reference and cite R and R packages on the fly in R Markdown and Quarto.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+              <a href="https://github.com/arnaudgallou/pakret" target="_blank" rel="noopener">
+                <i class="bi bi-github"></i>
+              </a>
+            
+          
+            
+              <a href="https://arnaudgallou.github.io/pakret/index.html" target="_blank" rel="noopener">
+                <i class="bi bi-file-text-fill"></i>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">plume</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">r</span>
+              
+                <span class="listing-category">package</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>R package that provides tools for handling and generating author-related information for scientific writing in R Markdown and Quarto.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+              <a href="https://github.com/arnaudgallou/plume" target="_blank" rel="noopener">
+                <i class="bi bi-github"></i>
+              </a>
+            
+          
+            
+              <a href="https://arnaudgallou.github.io/plume/index.html" target="_blank" rel="noopener">
+                <i class="bi bi-file-text-fill"></i>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">AI booking service</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">school project</span>
+              
+                <span class="listing-category">python</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>AI-powered email booking service that schedules or cancels sports sessions using the Google Gmail and Calendar APIs.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+              <a href="https://github.com/arnaudgallou/rag-booking" target="_blank" rel="noopener">
+                <i class="bi bi-github"></i>
+              </a>
+            
+          
+            
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">Big data project</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">school project</span>
+              
+                <span class="listing-category">spark</span>
+              
+                <span class="listing-category">java</span>
+              
+                <span class="listing-category">docker</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>Spark/Java application that evaluates performance gains from scaling computation across additional cores or servers.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+          
+            
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">Drone detection</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">school project</span>
+              
+                <span class="listing-category">python</span>
+              
+                <span class="listing-category">deep learning</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>Project to fine-tune a YOLO model for detecting flying objects (drones, helicopters, planes) and birds in images.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+          
+            
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">Medical chatbot</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">school project</span>
+              
+                <span class="listing-category">python</span>
+              
+                <span class="listing-category">rag</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>RAG-based medical application that makes diagnoses based on user inputs.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+              <a href="https://github.com/arnaudgallou/n7-rag" target="_blank" rel="noopener">
+                <i class="bi bi-github"></i>
+              </a>
+            
+          
+            
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="quarto-grid-item card h-100 card-left">
+      <div class="card-body post-contents">
+        <div class="card-body-wrapper">
+          <h5 class="no-anchor card-title listing-title">Species scraper</h5>
+          
+            <div class="listing-categories">
+              
+                <span class="listing-category">python</span>
+              
+            </div>
+          
+          <div class="card-text listing-description delink">
+            <p>Scraper to extract species and their elevation ranges in PDF and text files.</p>
+          </div>
+        </div>
+        <div class="card-footer-extra">
+          
+          
+            
+              <a href="https://github.com/arnaudgallou/rsparser" target="_blank" rel="noopener">
+                <i class="bi bi-github"></i>
+              </a>
+            
+          
+            
+          
+        </div>
+      </div>
+    </div>
+  
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
