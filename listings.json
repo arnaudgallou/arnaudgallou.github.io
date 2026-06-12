@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/projects/index.html",
-    "items": []
-  },
-  {
     "listing": "/into-the-wild/index.html",
     "items": []
   },
   {
     "listing": "/publications/index.html",
+    "items": []
+  },
+  {
+    "listing": "/projects/index.html",
     "items": []
   }
 ]

@@ -34,8 +34,6 @@
 
 .pub-links .pub-link {
   font-size: .8em;
-  padding: .3em .9em;
-  border: solid 1px;
 }
 
 .pub-links .pub-link:not(:last-child) {

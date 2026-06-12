@@ -11,5 +11,9 @@
 }
 
 .card-links a:hover {
-  color: #2a2a2a;
+  color: var(--graphite);
+}
+
+.listing-category {
+  cursor: default !important;
 }
