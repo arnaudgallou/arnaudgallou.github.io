@@ -7,10 +7,13 @@
       <div class="pub-meta">
         <span class="pub-meta-journal"><%= item.journal %></span>
         <span class="pub-meta-date"><%= item.date %></span>
-      </div>
-      <div class="pub-links">
-        <a href=<%- item.doi %> class="pub-link link-btn" target="_blank" rel="noopener">DOI</a>
-        <a href=<%- item.pdf %> class="pub-link link-btn" target="_blank" rel="noopener">PDF</a>
+          <% if (item.links) { %>
+            <% Object.entries(item.links).forEach(([key, value]) => { %>
+              <a href="<%- value %>" class="pub-meta-link link-btn" target="_blank" rel="noopener">
+                <%= key.toUpperCase() %>
+              </a>
+            <% }) %>
+          <% } %>
       </div>
     </div>
   <% } %>

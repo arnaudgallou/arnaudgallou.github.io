@@ -70,7 +70,7 @@ a {
   background-color: #FFA2A5;
 }
 
-.pub-link, .listing-category {
+.link-btn, .listing-category {
   background-color: #FFE8E8;
   color: var(--graphite) !important;
   border-radius: 12px !important;
