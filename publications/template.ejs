@@ -1,16 +1,37 @@
+<%
+  function make_name(name) {
+    let full_name = name[0].concat(" ", make_initials(name[1]));
+    if (is_self(name)) {
+      full_name = `<strong>${full_name}</strong>`
+    }
+    return full_name;
+  }
+
+  function make_initials(str) {
+    return str.replace(/[^A-Z-]+/gu, ".");
+  }
+
+  function is_self(name) {
+    return name[0].toLowerCase() === "gallou" && name[1].toLowerCase() === "arnaud";
+  }
+%>
+
 ```{=html}
 <div class="pub">
   <% for (const item of items) { %>
     <div class="pub-item">
       <h4><%= item.title %></h4>
-      <p class="pub-authors"><%= item.authors %></p>
+      <p class=" pub-authors"><%= item.authors.map(make_name).join(", ") %></p>
       <div class="pub-meta">
         <span class="pub-meta-journal"><%= item.journal %></span>
         <span class="pub-meta-date"><%= item.date %></span>
-      </div>
-      <div class="pub-links">
-        <a href=<%- item.doi %> class="pub-link link-btn" target="_blank" rel="noopener">DOI</a>
-        <a href=<%- item.pdf %> class="pub-link link-btn" target="_blank" rel="noopener">PDF</a>
+          <% if (item.links) { %>
+            <% Object.entries(item.links).forEach(([key, value]) => { %>
+              <a href="<%- value %>" class="pub-meta-link link-btn" target="_blank" rel="noopener">
+                <%= key.toUpperCase() %>
+              </a>
+            <% }) %>
+          <% } %>
       </div>
     </div>
   <% } %>

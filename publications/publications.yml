@@ -1,13 +1,42 @@
 - title: "Diurnal temperature range as a key predictor of plants’ elevation ranges globally"
-  authors: "<strong>Gallou A.</strong>, Jump A.S., Lynn J.S., Field R., Irl S.D.H., Steinbauer M.J., Beierkuhnlein C., Chen J.-C., Chou C.-H., Hemp A., Kidane Y., König C., Kreft H., Naqinezhad A., Nowak A., Nuppenau J.-N., Trigas P., Price J.P., Roland C.A., Schweiger A.H., Weigelt P., Flantua S.G.A., Grytnes J.-A."
+  authors:
+    - [Gallou, Arnaud]
+    - [Jump, Alistair S.]
+    - [Lynn, Joshua S.]
+    - [Field, Richard]
+    - [Irl, Severin D.H.]
+    - [Steinbauer, Manuel J.]
+    - [Beierkuhnlein, Carl]
+    - [Chen, Jan-Chang]
+    - [Chou, Chang-Hung]
+    - [Hemp, Andreas]
+    - [Kidane, Yohannes]
+    - [König, Christian]
+    - [Kreft, Holger]
+    - [Naqinezhad, Alireza]
+    - [Nowak, Arkadiusz]
+    - [Nuppenau, Jan-Niklas]
+    - [Trigas, Panayiotis]
+    - [Price, Jonathan P.]
+    - [Roland, Carl A.]
+    - [Schweiger, Andreas H.]
+    - [Weigelt, Patrick]
+    - [Flantua, Suzette G.A.]
+    - [Grytnes, John-Arvid]
   journal: Nature Communications
   date: 2023-11-10
-  doi: https://doi.org/10.1038/s41467-023-43477-8
-  pdf: https://www.nature.com/articles/s41467-023-43477-8.pdf
+  links:
+    doi: https://doi.org/10.1038/s41467-023-43477-8
+    pdf: https://www.nature.com/articles/s41467-023-43477-8.pdf
 
 - title: "Elevational gradient and human effects on butterfly species richness in the French Alps"
-  authors: "<strong>Gallou A.</strong>, Baillet Y., Ficetola G.F., Després L."
+  authors:
+    - [Gallou, Arnaud]
+    - [Baillet, Yann]
+    - [Ficetola, Gentile F.]
+    - [Després, Laurence]
   journal: Ecology and Evolution
   date: 2017-01-14
-  doi: https://doi.org/10.1002/ece3.2803
-  pdf: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ece3.2803
+  links:
+    doi: https://doi.org/10.1002/ece3.2803
+    pdf: https://onlinelibrary.wiley.com/doi/pdf/10.1002/ece3.2803
