@@ -62,7 +62,8 @@ a {
 }
 
 .about-link:hover {
-  color: var(--graphite) !important;
+  background-color: var(--graphite) !important;
+  color: white !important;
 }
 
 .link-btn:hover {
@@ -72,8 +73,12 @@ a {
 
 .link-btn, .listing-category {
   background-color: #FFE8E8;
-  color: var(--graphite) !important;
+  color: #A02D2D !important;
   border-radius: 12px !important;
   border: 0px !important;
   padding: .3em .9em !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--graphite) !important;
 }
